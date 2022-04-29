@@ -15,6 +15,8 @@
 		8B80FF0D281CA1650006AD8D /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF0C281CA1650006AD8D /* SwiftUIPracticeUITests.swift */; };
 		8B80FF0F281CA1650006AD8D /* SwiftUIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF0E281CA1650006AD8D /* SwiftUIPracticeUITestsLaunchTests.swift */; };
 		8B80FF1C281CA1770006AD8D /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF1B281CA1770006AD8D /* MyView.swift */; };
+		8B80FF1E281CA37B0006AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF1D281CA37B0006AD8D /* AppDelegate.swift */; };
+		8B80FF20281CA3BC0006AD8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF1F281CA3BC0006AD8D /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		8B80FF0C281CA1650006AD8D /* SwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		8B80FF0E281CA1650006AD8D /* SwiftUIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B80FF1B281CA1770006AD8D /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		8B80FF1D281CA37B0006AD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B80FF1F281CA3BC0006AD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				8B80FEF5281CA1650006AD8D /* Assets.xcassets */,
 				8B80FEF7281CA1650006AD8D /* Preview Content */,
 				8B80FF1B281CA1770006AD8D /* MyView.swift */,
+				8B80FF1D281CA37B0006AD8D /* AppDelegate.swift */,
+				8B80FF1F281CA3BC0006AD8D /* SceneDelegate.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B80FF20281CA3BC0006AD8D /* SceneDelegate.swift in Sources */,
+				8B80FF1E281CA37B0006AD8D /* AppDelegate.swift in Sources */,
 				8B80FF1C281CA1770006AD8D /* MyView.swift in Sources */,
 				8B80FEF4281CA1640006AD8D /* ContentView.swift in Sources */,
 				8B80FEF2281CA1640006AD8D /* SwiftUIPracticeApp.swift in Sources */,
