@@ -17,7 +17,7 @@ struct NavigationBarWithButton: ViewModifier {
                     .padding(),
                 trailing: Button(
                     action: {
-                        print("자산추가버튼 Tapped")
+                        print("자산추가버튼 tapped")
                     }, label: {
                         Image(systemName: "plus")
                         Text("자산추가")
@@ -25,7 +25,7 @@ struct NavigationBarWithButton: ViewModifier {
                     }
                 )
                 .accentColor(.black)
-                .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
+                .padding(EdgeInsets(top: 4, leading: 8, bottom: 4, trailing: 8))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black)
