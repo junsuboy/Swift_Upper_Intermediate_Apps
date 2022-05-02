@@ -16,6 +16,7 @@
 		8B80FF50281FAF840006AD8D /* MyAssetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF4F281FAF840006AD8D /* MyAssetsUITestsLaunchTests.swift */; };
 		8B80FF5D281FB0170006AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF5C281FB0170006AD8D /* AppDelegate.swift */; };
 		8B80FF5F281FB0870006AD8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF5E281FB0870006AD8D /* SceneDelegate.swift */; };
+		8B80FF62281FB6610006AD8D /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80FF61281FB6610006AD8D /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8B80FF5C281FB0170006AD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B80FF5E281FB0870006AD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8B80FF60281FB2140006AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B80FF61281FB6610006AD8D /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8B80FF5E281FB0870006AD8D /* SceneDelegate.swift */,
 				8B80FF36281FAF830006AD8D /* Assets.xcassets */,
 				8B80FF38281FAF830006AD8D /* Preview Content */,
+				8B80FF61281FB6610006AD8D /* NavigationBarWithButton.swift */,
 			);
 			path = MyAssets;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B80FF5D281FB0170006AD8D /* AppDelegate.swift in Sources */,
+				8B80FF62281FB6610006AD8D /* NavigationBarWithButton.swift in Sources */,
 				8B80FF35281FAF830006AD8D /* ContentView.swift in Sources */,
 				8B80FF33281FAF830006AD8D /* MyAssetsApp.swift in Sources */,
 				8B80FF5F281FB0870006AD8D /* SceneDelegate.swift in Sources */,
