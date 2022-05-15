@@ -27,6 +27,7 @@
 		8BD95657282A925700FBA4F4 /* FeatureSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95656282A925700FBA4F4 /* FeatureSectionCollectionViewCell.swift */; };
 		8BD95659282A958400FBA4F4 /* SeperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD95658282A958400FBA4F4 /* SeperatorView.swift */; };
 		8BD9565B282A9C4700FBA4F4 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9565A282A9C4700FBA4F4 /* RankingFeatureCollectionViewCell.swift */; };
+		8BEE15D528314850009AB9F5 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE15D428314850009AB9F5 /* AppDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8BD95656282A925700FBA4F4 /* FeatureSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BD95658282A958400FBA4F4 /* SeperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatorView.swift; sourceTree = "<group>"; };
 		8BD9565A282A9C4700FBA4F4 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BEE15D428314850009AB9F5 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				8BD95658282A958400FBA4F4 /* SeperatorView.swift */,
 				8BD9565A282A9C4700FBA4F4 /* RankingFeatureCollectionViewCell.swift */,
 				8BD95652282A44A600FBA4F4 /* ExchangeCodeButtonView.swift */,
+				8BEE15D428314850009AB9F5 /* AppDetailViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				8BD95653282A44A600FBA4F4 /* ExchangeCodeButtonView.swift in Sources */,
 				8BD95651282A449E00FBA4F4 /* RankingFeatureSectionView.swift in Sources */,
 				8BD95648282A336000FBA4F4 /* TodayCollectionViewCell.swift in Sources */,
+				8BEE15D528314850009AB9F5 /* AppDetailViewController.swift in Sources */,
 				8BD95659282A958400FBA4F4 /* SeperatorView.swift in Sources */,
 				8BD9564F282A446200FBA4F4 /* FeatureSectionView.swift in Sources */,
 			);
