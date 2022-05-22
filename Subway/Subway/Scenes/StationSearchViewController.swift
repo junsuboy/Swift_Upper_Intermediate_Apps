@@ -48,7 +48,7 @@ class StationSearchViewController: UIViewController {
     }
     
     private func requestStationName() {
-        let urlString = "http://openapi.seoul.go.kr:8088/sample/json/SearchInfoBySubwayNameService/1/5/서울"
+        let urlString = "http://openapi.seoul.go.kr:8088/sample/json/SearchInfoBySubwayNameService/1/5/서울역"
         
         AF
             .request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
