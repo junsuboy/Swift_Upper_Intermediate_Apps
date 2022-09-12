@@ -59,8 +59,6 @@ final class StationDetailViewController: UIViewController {
                 self?.refreshControl.endRefreshing()
                 
                 guard case .success(let data) = response.result else { return }
-                
-                print(data.realtimeArrivalList)
             }
             .resume()
     }
