@@ -154,9 +154,9 @@ let toggleFactory: Observable<String> = Observable.deferred {
     toggler.toggle()
     
     if toggler {
-        return Observable.just("🫳")
+        return Observable.just("🫳down")
     } else {
-        return Observable.just("🫴")
+        return Observable.just("🫴up")
     }
 }
 
