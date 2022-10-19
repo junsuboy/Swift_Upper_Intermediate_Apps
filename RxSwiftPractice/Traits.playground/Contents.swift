@@ -169,7 +169,3 @@ Completable.create { observer -> Disposable in
     print($0)
 }
 .disposed(by: disposeBag)
-print("-------Completable3-------")
-print("-------Completable4-------")
-print("-------Completable5-------")
-print("-------Completable6-------")
