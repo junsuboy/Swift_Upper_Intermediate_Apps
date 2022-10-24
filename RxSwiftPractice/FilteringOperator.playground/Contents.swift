@@ -1,10 +1,35 @@
 import RxSwift
 
-print("-------ignoreElements-------")
-let 취침모드😴 = PublishSubject<String>()
+let disposeBag = DisposeBag()
 
-취침모드😴
+print("-------ignoreElements-------")
+let sleeping = PublishSubject<String>()
+
+sleeping
     .ignoreElements()
-    .subscribe { _ in
-        print()
+    .subscribe {
+        print($0)
     }
+    .disposed(by: disposeBag)
+
+sleeping.onNext("💎")
+sleeping.onNext("💎")
+sleeping.onNext("💎")
+
+sleeping.onCompleted()
+
+print("-------elementAt-------")
+let atTwo = PublishSubject<String>()
+
+atTwo
+    .element(at: 2)
+    .subscribe(onNext: {
+        print($0)
+    })
+    .disposed(by: disposeBag)
+
+atTwo.onNext("💎")  // index0
+atTwo.onNext("💎")  // index1
+atTwo.onNext("✅")  // index2
+atTwo.onNext("💎")  // index3
+
