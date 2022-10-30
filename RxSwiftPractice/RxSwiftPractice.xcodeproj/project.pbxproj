@@ -31,6 +31,7 @@
 		8B4B0B5E290054D9000D8771 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8B4B0B5F29058858000D8771 /* FilteringOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8B4B0B6029082CF0000D8771 /* TransformingOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BD9B43C290EB354000FA1F9 /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		93E51CEA491CF58E06F893EC /* Pods_RxSwiftPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCA7AAFF55743368875285 /* Pods-RxSwiftPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +64,7 @@
 				8B4B0B5E290054D9000D8771 /* Subjects.playground */,
 				8B4B0B5F29058858000D8771 /* FilteringOperator.playground */,
 				8B4B0B6029082CF0000D8771 /* TransformingOperator.playground */,
+				8BD9B43C290EB354000FA1F9 /* CombiningOperators.playground */,
 				8B4B0B4728EB281A000D8771 /* RxSwiftPractice */,
 				8B4B0B4628EB281A000D8771 /* Products */,
 				D831DD85A43BF1EEBF5FB4FF /* Pods */,
